@@ -93,15 +93,15 @@
                     <wheelspeedy>10</wheelspeedy>
                     <slots>
                         <slot>
-                            <code>4</code>
-                            <mode>mousebutton</mode>
+                            <code>0x58</code>
+                            <mode>keyboard</mode>
                         </slot>
                     </slots>
                 </dpadbutton>
                 <dpadbutton index="1">
                     <slots>
                         <slot>
-                            <code>0x4d</code>
+                            <code>0x46</code>
                             <mode>keyboard</mode>
                         </slot>
                     </slots>
@@ -119,8 +119,8 @@
                     <wheelspeedy>10</wheelspeedy>
                     <slots>
                         <slot>
-                            <code>5</code>
-                            <mode>mousebutton</mode>
+                            <code>0x4d</code>
+                            <mode>keyboard</mode>
                         </slot>
                     </slots>
                 </dpadbutton>
@@ -206,17 +206,27 @@
                 </slots>
             </button>
             <button index="11">
+                <wheelspeedy>8</wheelspeedy>
                 <slots>
                     <slot>
-                        <code>0x46</code>
-                        <mode>keyboard</mode>
+                        <code>4</code>
+                        <mode>mousebutton</mode>
                     </slot>
                 </slots>
             </button>
             <button index="10">
+                <wheelspeedy>8</wheelspeedy>
                 <slots>
                     <slot>
-                        <code>0x54</code>
+                        <code>5</code>
+                        <mode>mousebutton</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="9">
+                <slots>
+                    <slot>
+                        <code>0x43</code>
                         <mode>keyboard</mode>
                     </slot>
                 </slots>
